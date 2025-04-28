@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinay Kumar - Portfolio</title>
+    <meta name="title" content="Vinay Kumar - Portfolio" />
+    <meta name="description" content="Full-Stack MERN Developer passionate about building futuristic digital experiences" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="#"><img src="./assets/logo.png" alt="Your Logo" /></a>
+          </h1>
+          
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#education">EDUCATION</a></li>
+            <li><a class="nav-link" href="#skills">SKILLS</a></li>
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#certifications">CERTIFICATIONS</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">MORE <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#social-service">Social Service</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+              </ul>
+            </li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="https://drive.google.com/file/d/1A3Cw_XgETmhuHfZgi1J-0iwnlXIQ7wKj/view?usp=sharing"
+                target="_blank"
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" alt="Dark Mode" />
+                <img class="sun" src="assets/sun.svg" alt="Light Mode" />
+              </label>
+            </div>
+          </ul>
+          
+          <!-- Hamburger menu -->
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="header-container">
+        <div class="profile-container" data-aos="fade-up">
+          <img class="profile-image" src="assets/profilepic.jpg" alt="Vinay Kumar" />
+          <div class="social-icons-floating">
+            <a href="http://www.linkedin.com/in/vinaykumarvk26" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Vinaykumarvk26" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h1 data-aos="fade-up" data-aos-delay="100">Hi, I'm <span class="highlight">Vinay Kumar</span></h1>
+
+        <div class="content-text" data-aos="fade-up" data-aos-delay="200">
+          <h2>Turning imagination into innovation.</h2>
+          <p>
+            A Full-Stack MERN Developer passionate about building futuristic digital experiences and exploring space technologies.
+          </p>
+        </div>
+        
+        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+          <a
+            href="https://drive.google.com/file/d/1A3Cw_XgETmhuHfZgi1J-0iwnlXIQ7wKj/view?usp=sharing"
+            class="btn btn-secondary"
+            target="_blank"
+          >Resume</a>
+        
+          <a
+            href="https://drive.google.com/file/d/1yt2QDXg04oHLbuZB6OzCteJfaBgSaDoM/view?usp=drivesdk"
+            class="btn btn-secondary"
+            target="_blank"
+          >Video CV</a>
+          
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+        </div>
+        
+        <div class="scroll-down" data-aos="fade-up" data-aos-delay="400">
+          <a href="#education">
+            <span class="mouse">
+              <span class="wheel"></span>
+            </span>
+            <span class="arrow">
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+        </div>
+      </section>
+    </header>
+
+    <!-- Education Section -->
+    <section id="education" class="section-container">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Education</h2>
+          <p>My academic journey and qualifications</p>
+        </div>
+
+        <div class="education-list">
+          <!-- Education Item 1 -->
+          <div class="education-item" data-aos="fade-up">
+            <div class="education-year">2022 - Present</div>
+            <div class="education-content">
+              <h3>Bachelor of Technology in Computer Science</h3>
+              <h4>Lovely Professional University</h4>
+              <p><strong>CGPA:</strong> 7.5/10</p>
+              <p>Specialized in Full Stack Development and Data Structures & Algorithms</p>
+              <div class="education-tags">
+                <span>Web Development</span>
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Item 2 -->
+          <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="education-year">2020 - 2022</div>
+            <div class="education-content">
+              <h3>Higher Secondary Education</h3>
+              <h4>Sri Chaitanya Junior College</h4>
+              <p><strong>Percentage:</strong> 95.6%</p>
+              <p>Focused on Mathematics, Physics, and Chemistry</p>
+              <div class="education-tags">
+                <span>Mathematics</span>
+                <span>Physics</span>
+                <span>Chemistry</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Item 3 -->
+          <div class="education-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="education-year">2013 - 2020</div>
+            <div class="education-content">
+              <h3>Secondary School Certificate</h3>
+              <h4>Nagarjuna High School</h4>
+              <p><strong>Percentage:</strong> 100%</p>
+              <p>Achieved distinction in Mathematics and Science</p>
+              <div class="education-tags">
+                <span>Mathematics</span>
+                <span>Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-container section-alt">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Skills</h2>
+          <p>Technologies and tools I work with</p>
+        </div>
+
+        <div class="skills-container">
+          <!-- Frontend Skills -->
+          <div class="skill-category" data-aos="fade-up">
+            <h3>Frontend</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-bootstrap"></i>
+                <span>Bootstrap</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Skills -->
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+            <h3>Backend</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <span>Express.js</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>MongoDB</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>MySQL</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-php"></i>
+                <span>PHP</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 65%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Others -->
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+            <h3>Tools & Others</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-terminal"></i>
+                <span>Command Line</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-code-branch"></i>
+                <span>RESTful APIs</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-cloud"></i>
+                <span>AWS</span>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-container">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Projects</h2>
+          <p>Check out some of my personal projects</p>
+        </div>
+
+        <div class="project-filter" data-aos="fade-up">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="mern">MERN</button>
+          <button class="filter-btn" data-filter="php">PHP</button>
+          <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="mern" data-aos="fade-up">
+            <div class="project-image">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project-one-jtngmHEEyljMswC6RzixnSkcOa0i8a.png" alt="VirtualSpace69" />
+              <div class="project-overlay">
+                <div class="project-preview">
+                  <a href="#" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>VirtualSpace69</h3>
+              <p>A deep dive into India's space journey since 1969. Built with MERN stack and interactive 3D models.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Three.js</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-category="mern" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project-two-3LKovli8Ec27jMyqfnHlyvLQiAeQPe.png" alt="Food Delivery Website" />
+              <div class="project-overlay">
+                <div class="project-preview">
+                  <a href="#" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Food Delivery Website</h3>
+              <p>A complete food delivery platform with user authentication, order tracking, and payment integration.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>Stripe</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Vinaykumarvk26/FoodHub" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-category="other" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project-three-ARfprI94wZWUtmK5bBh1CsRfom5bhl.png" alt="LPU Review Website" />
+              <div class="project-overlay">
+                <div class="project-preview">
+                  <a href="#" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>LPU Review Website</h3>
+              <p>A comprehensive review platform for Lovely Professional University with student testimonials and ratings.</p>
+              <div class="project-tech">
+                <span>Weebly</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://campusinsights.weebly.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card" data-category="php" data-aos="fade-up">
+            <div class="project-image">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project-four-Us4Jm0ZEi7iUWHJgQMQ0C3a8pR2ZBB.png" alt="Voting System" />
+              <div class="project-overlay">
+                <div class="project-preview">
+                  <a href="#" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Voting System</h3>
+              <p>A secure online voting platform with user authentication, vote verification, and real-time results.</p>
+              <div class="project-tech">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Vinaykumarvk26/OnlineVotingSystem" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card" data-category="mern" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project-five-QgAksekvyOneTs48UOKDshYYPMjApj.png" alt="Movie Recommendation System" />
+              <div class="project-overlay">
+                <div class="project-preview">
+                  <a href="#" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Movie Recommendation System</h3>
+              <p>An AI-powered movie recommendation system using collaborative filtering and content-based algorithms.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>TensorFlow</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card" data-category="mern" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project-six-kS46K0w0jc4tWTSJxpPgvJkRwtGSSZ.png" alt="Expenses Tracker" />
+              <div class="project-overlay">
+                <div class="project-preview">
+                  <a href="#" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Expenses Tracker</h3>
+              <p>A comprehensive expense tracking application with budget planning, reports, and visualization.</p>
+              <div class="project-tech">
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Express</span>
+                <span>Chart.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Vinaykumarvk26/expensesTracker" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="view-more-container" data-aos="fade-up">
+          <a href="https://github.com/Vinaykumarvk26" class="btn btn-primary" target="_blank">
+            View More on GitHub <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-container section-alt">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Certifications</h2>
+          <p>Professional certifications and courses I've completed</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Certification 1 -->
+          <div class="certification-card" data-aos="fade-up">
+            <div class="certification-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Cloud Computing</h3>
+              <p class="certification-provider">NPTEL</p>
+              <p class="certification-date">Issued: December 2024</p>
+              <p class="certification-description">Covered cloud models, virtualization, distributed computing, and deployment strategies in public and private cloud environments.
+
+              </p>
+              <a href="#" class="btn btn-sm">View Certificate</a>
+            </div>
+          </div>
+
+          <!-- Certification 2 -->
+          <div class="certification-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="certification-icon">
+              <i class="fab fa-aws"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Technology Software Development
+              </h3>
+              <p class="certification-provider">Forage</p>
+              <p class="certification-date">Issued: March 2025</p>
+              <p class="certification-description">Completed real-world job simulation focused on core software engineering principles and development workflows.
+
+              </p>
+              <a href="#" class="btn btn-sm">View Certificate</a>
+            </div>
+          </div>
+
+          <!-- Certification 3 -->
+          <div class="certification-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="certification-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Software Engineering Job Simulation
+              </h3>
+              <p class="certification-provider">Forage</p>
+              <p class="certification-date">Issued: March 2025</p>
+              <p class="certification-description">Practical experience in handling full-stack tasks, debugging, and collaborating in a simulated tech company environment.
+
+              </p>
+              <a href="#" class="btn btn-sm">View Certificate</a>
+            </div>
+          </div>
+
+          <!-- Certification 4 -->
+          <div class="certification-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="certification-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Mastering Data Structure & Algorithm: Theory to Practice
+              </h3>
+              <p class="certification-provider">Coursera</p>
+              <p class="certification-date">Issued: August 2024</p>
+              <p class="certification-description">Comprehensive study of algorithms, data structures, and problem-solving techniques.</p>
+              <a href="#" class="btn btn-sm">View Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section-container">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Achievements</h2>
+          <p>Recognition and accomplishments throughout my journey</p>
+        </div>
+
+        <div class="achievements-list">
+          <!-- Achievement 1 -->
+          <div class="achievement-item" data-aos="fade-up">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="achievement-content">
+              <h3>Impressiva Stage - Infenion Hackathon 2025</h3>
+              <p class="achievement-date">February 2025</p>
+              <p>In a 48-hour hackathon with a team of 4, developing an innovative solution for problem solving accessibility.</p>
+            </div>
+          </div>
+
+           <!-- Achievement 2 -->
+           <div class="achievement-item" data-aos="fade-up">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="achievement-content">
+              <h3>Led a Social Media Marketing Vlog Project</h3>
+              <p class="achievement-date">April 2025</p>
+              <p>Led a Social Media Marketing Vlog Project, focusing on SEO, analytics tools, and content marketing to promote campus life..</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- tarining Section -->
+    <section id="training" class="section-container section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Training</h2>
+      <p>Professional training and courses I've completed</p>
+    </div>
+
+    <div class="training-grid">
+      <!-- Training 1 -->
+      <div class="training-card" data-aos="fade-up">
+        <h3>Mastering Data Structure & Algorithm: Theory of Practice</h3>
+        <span class="training-date">June 2024 - July 2024</span>
+        <p>
+          Data Structure and Algorithm using Java
+          <p>• Implemented various Data Structures such as Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, and Hash
+          Tables, optimizing time complexity and improving performance in coding challenges by 30%.</p>
+          <p>• Designed and executed algorithms including Sorting (Merge Sort, Quick Sort, Heap Sort), Searching (Binary
+          Search), and Graph Algorithms (DFS, BFS, Dijkstra’s, and Floyd-Warshall), achieving a significant reduction
+          in execution time by 40%.</p>
+          <p>• Applied Dynamic Programming and Greedy Algorithms to solve complex problems, leading to a 20% increase
+          in problem-solving accuracy in competitive programming environments.</p>
+
+
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Social Service Section -->
+    <section id="social-service" class="section-container">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Social Service</h2>
+      <p>Giving back to the community through various initiatives</p>
+    </div>
+
+    <div class="social-service-grid">
+      <!-- Social Service 1 -->
+      <div class="social-service-card" data-aos="fade-up">
+        <div class="social-service-image">
+          <img src="C:\Users\duggi\Downloads\portfolio-html-main\portfolio-html-main\src\assets\sc-one.jpg" alt="Animal Welfare Activities">
+        </div>
+        <div class="social-service-content">
+          <h3>Animal Welfare Activities</h3>
+          <p class="social-service-date">2023 - 2024</p>
+          <p>Engaged in compassionate care by feeding cows and promoting animal welfare in rural and semi-urban areas.</p>
+        </div>
+      </div>
+
+      <!-- Social Service 2 -->
+      <div class="social-service-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="social-service-image">
+          <img src="C:\Users\duggi\Downloads\portfolio-html-main\portfolio-html-main\src\assets\sc-two.jpg" alt="Slum Community Outreach">
+        </div>
+        <div class="social-service-content">
+          <h3>Slum Community Outreach</h3>
+          <p class="social-service-date">2021 - 2022</p>
+          <p>Visited orphanage homes, shared joy through fun activities with children, and provided meals to patients and their families near hospital areas.</p>
+        </div>
+      </div>
+
+      <!-- Social Service 3 -->
+      <div class="social-service-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="social-service-image">
+          <img src="C:\Users\duggi\Downloads\portfolio-html-main\portfolio-html-main\src\assets\sc-three.jpg" alt="Patient Support Services">
+        </div>
+        <div class="social-service-content">
+          <h3>Patient Support Services</h3>
+          <p class="social-service-date">2022 - 2023</p>
+          <p>Provided freshly cooked meals and basic necessities to patients and their families near hospitals, ensuring comfort during difficult times.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-container section-alt">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Contact Me</h2>
+          <p>Let's connect and discuss how we can work together</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info" data-aos="fade-up">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p><a href="mailto:vinay.duggirala26@gmail.com">vinay.duggirala26@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p><a href="tel:+9032262673">+91 9032262673</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Hyderabad, Telangana, India</p>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <h3>Connect with me</h3>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            
+            <div class="contact-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3176895692!2d78.24323111953124!3d17.41229999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <div class="contact-form" data-aos="fade-up" data-aos-delay="100">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                <span class="error-message"></span>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+              <div class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <p>Turning imagination into innovation</p>
+          </div>
+          
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:vinay.duggirala26@gmail.com">vinay.duggirala26@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+919032262673">+91 9032262673
+            <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+          </div>
+        </div>
+        
+        <!-- Social links -->
+        <div class="social">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>Copyright &copy; <span id="datee"></span> Vinay Kumar. All rights reserved</p>
+          <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+        </div>
+      </div>
+      
+      <!-- Back to top button -->
+      <a href="#hero" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

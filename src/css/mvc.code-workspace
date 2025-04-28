@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../mvc"
+		},
+		{
+			"path": "../../../../../../../xampp/htdocs/LFS"
+		},
+		{
+			"path": "../../../../opPortfolio-master/opPortfolio-master"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../OneDrive/Desktop/VirtualSpace69/webspace/isro"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "opPortfolio-master"
+	}
+}
